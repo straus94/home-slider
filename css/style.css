@@ -91,12 +91,15 @@ h1, h2 {
 .slider {
   position: relative;
   overflow: hidden;
-  padding: 0 0 0 120px;
+  padding: 0 0 0 100px;
 }
 
 .slider__slide {
   position: relative;
   margin: 0 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .slider__slide img {
@@ -156,7 +159,7 @@ h1, h2 {
 }
 
 .slider .slick-prev {
-  left: 0;
+  left: 10px;
 }
 
 .slider .slick-prev::before {
@@ -192,7 +195,7 @@ h1, h2 {
 }
 
 .slider .slick-slide {
-  height: 100%;
+  min-height: 170px;
   float: left;
 }
 /*# sourceMappingURL=style.css.map */
